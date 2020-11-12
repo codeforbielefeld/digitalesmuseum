@@ -12,6 +12,10 @@ def root():
 
     return render_template('index.html')
 
+@app.route('/about')
+def another():
+    return render_template('about.html')
+
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
