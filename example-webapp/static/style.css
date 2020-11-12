@@ -26,3 +26,18 @@ body {
 .inputfile + label:hover {
     background-color: rgb(122, 27, 3);
 }
+
+.linkresult {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: white;
+  background-color :#343a40;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.linkresult:focus
+.linkresult:hover {
+    background-color: rgb(122, 27, 3);
+}
